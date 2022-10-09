@@ -27,11 +27,13 @@ ul {
 }
 .container {
   max-width: 1200px;
-  margin: 0 215px;
+  margin: 0 200px;
   padding: 0 15px;
 }
 .header-box {
   display: flex;
+  height: 79px;
+  align-items: center;
 }
 .introduction {
   background-color: #2f303a;
@@ -59,7 +61,7 @@ ul {
 /*  */
 /* Logo settings */
 .logo {
-  display: inline;
+  -ms-flex-align: start;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
