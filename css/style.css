@@ -10,6 +10,8 @@ body {
   background-color: #fff;
   color: #212121;
   line-height: 1.14;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 /* General settings */
 /*  */
@@ -20,18 +22,16 @@ h3,
 h4,
 p,
 ul {
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0 0;
+  padding: 0 0;
 }
 .container {
   max-width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin: 0 215px;
+  padding: 0 15px;
 }
-.header,
-.header-portfolio,
-.footer {
-  max-width: 1600px;
+.header-box {
+  display: flex;
 }
 .introduction {
   background-color: #2f303a;
@@ -59,6 +59,7 @@ ul {
 /*  */
 /* Logo settings */
 .logo {
+  display: inline;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
