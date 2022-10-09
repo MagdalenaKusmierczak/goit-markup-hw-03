@@ -10,8 +10,8 @@ body {
   background-color: #fff;
   color: #212121;
   line-height: 1.14;
-  max-width: 1600px;
-  margin: 0 auto;
+  width: 1600px;
+  margin: 0 200px;
 }
 /* General settings */
 /*  */
@@ -26,14 +26,28 @@ ul {
   padding: 0 0;
 }
 .container {
-  max-width: 1200px;
-  margin: 0 200px;
+  width: 1200px;
   padding: 0 15px;
+  margin: 0 200px;
 }
 .header-box {
   display: flex;
   height: 79px;
   align-items: center;
+}
+.navigation {
+  padding-left: 93px;
+}
+.navigation-list li:not(:first-child) {
+  padding-left: 46px;
+}
+.header-contacts-list {
+  display: flex;
+  padding-right: 2px;
+  justify-self: flex-end;
+}
+.navigation-list {
+  display: flex;
 }
 .introduction {
   background-color: #2f303a;
@@ -61,7 +75,7 @@ ul {
 /*  */
 /* Logo settings */
 .logo {
-  -ms-flex-align: start;
+  justify-self: flex-start;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
