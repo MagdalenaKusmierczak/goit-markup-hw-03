@@ -7,11 +7,12 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #e5e5e5;
   color: #212121;
   line-height: 1.14;
   width: 1600px;
-  margin: 0 200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* General settings */
 /*  */
@@ -28,15 +29,15 @@ ul {
 .container {
   width: 1200px;
   padding: 0 15px;
-  margin: 0 200px;
+  margin: auto;
 }
 .header-box {
   display: flex;
-  height: 79px;
   align-items: center;
+  padding-right: 2px;
 }
 .navigation {
-  padding-left: 93px;
+  padding: 32px 371px 32px 93px;
 }
 .navigation-list li:not(:first-child) {
   padding-left: 46px;
@@ -44,7 +45,7 @@ ul {
 .header-contacts-list {
   display: flex;
   padding-right: 2px;
-  justify-self: flex-end;
+  gap: 50px;
 }
 .navigation-list {
   display: flex;
@@ -66,10 +67,15 @@ ul {
 }
 
 .header {
+  background-color: #fff;
   border-bottom: 1px solid #ececec;
 }
+.main {
+  background-color: #fff;
+}
 .header-portfolio {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  border: 1px solid #ececec;
 }
 /* Box settings */
 /*  */
