@@ -36,14 +36,15 @@ ul {
   align-items: center;
   padding-right: 2px;
 }
-.navigation {
+/* .navigation {
   padding: 32px 371px 32px 93px;
-}
+} */
 .navigation-list li:not(:first-child) {
   padding-left: 46px;
 }
 .header-contacts-list {
   display: flex;
+  justify-self: flex-end;
   padding-right: 2px;
   gap: 50px;
 }
@@ -86,6 +87,7 @@ ul {
 /*  */
 /* Logo settings */
 .logo {
+  display: flex;
   justify-self: flex-start;
   font-family: 'Raleway';
   font-weight: 700;
