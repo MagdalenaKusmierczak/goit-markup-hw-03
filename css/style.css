@@ -10,7 +10,7 @@ body {
   background-color: #e5e5e5;
   color: #212121;
   line-height: 1.14;
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -31,28 +31,39 @@ ul {
   padding: 0 15px;
   margin: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header,
+.header-portfolio {
+  padding: 23.94px;
+  background-color: #fff;
+  border-bottom: 1px solid #ececec;
+}
 .header-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 2px;
 }
-.navigation-list li:not(:first-child) {
-  padding-left: 46px;
-}
-.header-contacts-list {
-  display: flex;
-  justify-self: flex-end;
-  padding-right: 2px;
-  gap: 50px;
-}
 .navigation {
   display: flex;
   flex-grow: 2;
 }
 .navigation-list {
-  padding-left: 93px;
   display: flex;
+  padding-left: 93px;
+  gap: 46px;
+}
+.header-contacts {
+  display: flex;
+  justify-self: flex-end;
+}
+.header-contacts-list {
+  display: flex;
+  gap: 50px;
+  padding-right: 2px;
 }
 .description-list {
   display: flex;
@@ -75,12 +86,6 @@ ul {
   background-color: #2f303a;
 }
 
-.header,
-.header-portfolio {
-  padding: 23.94px;
-  background-color: #fff;
-  border-bottom: 1px solid #ececec;
-}
 .main {
   background-color: #fff;
 }
@@ -148,6 +153,8 @@ ul {
 /*  */
 /* Buttons of all type */
 .introduction-button {
+  margin: 0 auto;
+  display: block;
   font-family: inherit, sans-serif;
   width: 200px;
   height: 50px;
@@ -162,7 +169,6 @@ ul {
   border-radius: 4px;
   border-color: var(--brand-color);
   cursor: pointer;
-  margin: 30px 485px 200px 485px;
 }
 .portfolio-button {
   font-family: inherit, sans-serif;
@@ -217,6 +223,9 @@ ul {
 /*  */
 /* Header settings */
 .introduction-header {
+  position: center;
+  margin: 0 auto;
+  width: 969px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -224,7 +233,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding: 200px 252px 0 252px;
+  padding-bottom: 30px;
 }
 .secound-header {
   font-weight: 700;
