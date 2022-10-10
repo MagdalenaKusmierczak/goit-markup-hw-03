@@ -35,6 +35,12 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.buttons-portfolio {
+  padding-bottom: 0px;
+}
+.projects {
+  padding-top: 50px;
+}
 .header,
 .header-portfolio {
   padding: 23.94px;
@@ -99,6 +105,19 @@ ul {
   width: 100%;
   margin: 0 0;
 }
+.project-list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.project-figure {
+  display: block;
+  width: 370px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
 /* Box settings */
 /*  */
 /* Logo settings */
@@ -191,7 +210,9 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 4px 18px;
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   background: var(--brand-color);
@@ -237,6 +258,11 @@ ul {
 .team-list {
   display: flex;
   gap: 30px;
+}
+.buttons-portfolio-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
 }
 /* List settings */
 /*  */
@@ -290,6 +316,7 @@ ul {
 .project-description {
   background-color: #fff;
   border: 1px solid #eeeeee;
+  flex-basis: calc((100%) / 3);
 }
 .project-name {
   font-weight: 700;
@@ -303,4 +330,5 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /* Description settings */
