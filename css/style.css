@@ -106,6 +106,7 @@ ul {
   margin: 0 0;
 }
 .project-list {
+  flex-basis: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -115,7 +116,6 @@ ul {
   max-width: 370px;
   background-color: #fff;
   border: 1px solid #eee;
-  flex-basis: calc((100%-60px) / 3);
 }
 .project-figure {
   margin: 0 0;
