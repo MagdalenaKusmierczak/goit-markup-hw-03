@@ -193,7 +193,7 @@ ul {
 .introduction-button {
   margin: 0 auto;
   display: block;
-  font-family: inherit, sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 200px;
   height: 50px;
   font-weight: 700;
@@ -209,7 +209,7 @@ ul {
   cursor: pointer;
 }
 .portfolio-button {
-  font-family: inherit, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f5f4fa;
   border-color: inherit;
   border-radius: 4px;
@@ -280,7 +280,6 @@ ul {
 /*  */
 /* Header settings */
 .introduction-header {
-  position: center;
   margin: 0 auto;
   max-width: 696px;
   font-weight: 900;
