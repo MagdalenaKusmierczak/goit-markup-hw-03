@@ -164,6 +164,7 @@ ul {
 .current-page {
   color: var(--brand-color);
 }
+.link:after,
 .link:active,
 .link:visited,
 .link:before {
